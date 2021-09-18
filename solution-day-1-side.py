@@ -7,6 +7,6 @@ for password in passwords:
 	if result:
 		first_digit = [*list(filter(lambda x:x.isdigit(),password)),0][0]
 		print(first_digit,password,sep="---")
-		sum_of_first_digits	+= int(first_digit)
+		sum_of_first_digits += int(first_digit)
 print(sum_of_first_digits)	
 
